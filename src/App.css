@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.square {
+    padding: 0px;
+    height: 50px;
+    width: 50px;
+    border-width: 5px;
+    border-style:solid;
+    border-color: brown;
+    font-size: 16px;
+    outline: none;
+}
+
+.Cellar-View {
+    display:flex;
+    margin: auto;
+}
+
+.Cellar-View > form {
+    margin: 10px;
+}
+
+.Cellar-View > div {
+    margin: 10px;
+}
+
+.form-group {
+    overflow:auto;
+}
+
+.form-group > label {
+    display: inline-block;
+    float: left;
+    text-align: right;
+    clear: left;
+    width: 75px;
+}
+
+.form-group > input {
+    display: inline-block;
+    float: left;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
